@@ -1,2 +1,2 @@
 #!/bin/bash
-find/dir/ -print
+find -mindepth 1 -type d | wc -l
